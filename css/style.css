@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media (max-width: 1150px){
+    .title{
+        color: coral;
+    }
+}
+
+.stuff{
+    margin-top: 35px;
+}
+
+.nav-link{
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+main {
+    padding-left: 450px;
+  }
+
+nav{
+    max-width: 400px;
+    min-width: 400px;
+    height: 100%;
+    position:fixed;
+    background-color: silver;
+    border-right: 3px solid black;
+    
+    
+}
+
+@media (max-width: 1150px){
+    nav{
+        background-color: rgba(213, 232, 241, 0.966);
+    }
+}
